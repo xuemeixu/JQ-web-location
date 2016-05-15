@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 1000px;
+  height: 100%;
+  /* position: relative; */
+  margin: 0 auto;
+  /* background: #DF7575; */
+}
+#meau {
+  position: fixed;
+  top: 150px;
+  left: 50%;
+  margin-left: 320px;
+}
+#meau ul li {
+  list-style: none;
+}
+#meau ul li .current {
+  background-color: #0946F0;
+  color: white;
+}
+#meau ul li a {
+  width: 80px;
+  height: 40px;
+  display: block;
+  text-decoration: none;
+  line-height: 40px;
+  color: #221F1F;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+#meau ul li a:hover {
+  background-color: #0946F0;
+  color: white;
+}
+#content {
+  /* position: absolute; */
+  margin-top: 50px;
+  width: 90%;
+  height: 100%;
+  /* margin: 0 auto; */
+  /* background: #7C5151; */
+}
+#content h1 {
+  color: #0E7EF5;
+}
+#content #cot_item {
+  width: 90%;
+  height: 90%;
+}
+#content #cot_item .Item {
+  width: 100%;
+  border: 1px dotted #ccc;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  /* #line{
+	    
+	    			width: 90%;
+	    			height: 2px;
+	    			color: #1E70CE;
+	    } */
+}
+#content #cot_item .Item h2 {
+  width: 750px;
+  margin-top: 20px;
+  border-bottom: 2px solid #69ADE5;
+  margin-left: 35px;
+}
+#content #cot_item .Item ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 35px;
+}
+#content #cot_item .Item ul li {
+  margin-right: 20px;
+  margin-top: 20px;
+  list-style: none;
+}
+img {
+  width: 230px;
+  height: 240px;
+}
